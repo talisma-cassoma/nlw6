@@ -1,6 +1,6 @@
 install devDependencies:
 ```bash
-    $ yarn add typescript ts-node-dev
+    $ yarn add typescript ts-node-dev express @type/express -D
 ```
 
 run app
