@@ -2,7 +2,7 @@
     $ yarn dev  
 ```
 Dependencias:
-```bash
+```
     $ yarn add typescript ts-node-dev express @type/express 
     $ yarn add typeorm reflect-metadata sqlite3
 ```
@@ -16,4 +16,4 @@ depois executamos  o comando
 ```
 
 - para criar o BD .sqlite chamando a funcao ``createConnection()`` importada do modulo "typeorm"
-cea63a8552264a85bde6758eeb3cb5353c95ee63
+
