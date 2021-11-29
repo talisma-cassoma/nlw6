@@ -1,9 +1,9 @@
-import express from "express"
+import express from "express";
 
-const app = express()
+import "reflect-metadata" ;
 
-app.get("/", (req ,res)=>{
- return res.send("ola client amado")
-})
+import "./database" ;
 
-app.listen(5000, ()=> console.log("servidor rodando!"))
+const app= express();
+
+app.listen(5000, ()=> console.log("servidor rodando!"));
