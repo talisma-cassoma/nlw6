@@ -16,4 +16,4 @@ depois executamos  o comando
 ```
 
 - para criar o BD .sqlite chamando a funcao ``createConnection()`` importada do modulo "typeorm"
-
+- para criar a estrutura do BD definimos no ormconfig.json o caminho das "migrations" e excutando o comando ``yarn typeorm migration:run``
