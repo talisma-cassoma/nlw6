@@ -20,13 +20,13 @@ depois executamos  o comando
 
 - criar entidades com comando ``yarn typeorm entity:create -n nomeDaEntity`` nao esquecer de definir o directorio das entities no ormconfig.json
 
-- descomrntar na tsconfig :
+- descomentar na tsconfig :
     "experimentalDecorators": true,                 
     "emitDecoratorMetadata": true,  
     "strictPropertyInitialization": false, //para evitar erros 
 
 -biblioteca uuid pra gerar primarykeys 
 ```
-yarn add uuid 
-yarn add type@/uui
+$ yarn add uuid 
+$ yarn add type@/uuid
 ```
