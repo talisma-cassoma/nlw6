@@ -3,6 +3,7 @@
 ```
 Dependencias:
 ```
+    $ npm install yarn --global
     $ yarn add typescript ts-node-dev express @type/express 
     $ yarn add typeorm reflect-metadata sqlite3
 ```
