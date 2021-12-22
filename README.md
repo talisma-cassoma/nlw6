@@ -1,13 +1,13 @@
+
+install dependencias:
+```
+    $ npm install yarn --global
+    $ yarn
+```
+init app
 ``` 
     $ yarn dev  
 ```
-Dependencias:
-```
-    $ npm install yarn --global
-    $ yarn add typescript ts-node-dev express @type/express 
-    $ yarn add typeorm reflect-metadata sqlite3
-```
-
 - criamos o arquivo ormconfig.json
 
 e definimos o tipo de base dados e o diretorio das migrations 
